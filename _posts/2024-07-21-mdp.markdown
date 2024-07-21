@@ -1,0 +1,60 @@
+---
+layout: post
+title:  "Maximum Diversification Portfolio!"
+date:   2024-07-20 22:38:28 +0900
+categories: FBA PO
+---
+
+
+
+# SUMMARY
+
+- 기존 CAPM이론은 단순함과 명확성을 뛰어나지만 강력한 가정으로 인해 실제 포트폴리오 관리에 사용될 수 있는지에 대한 논쟁  
+
+Risky assets of universe U:X_1, X_2,...,X_N 
+V: covariance matrix  
+C: correlation matrix  
+$\sum  $: vector of asset volatilities  
+
+Diversification ratio = $D(P) = \frac{P'\sum}{\sqrt{P'VP}}$  
+(P = $(w_{P1},...,w_{PN}), \sum w_{Pi} = 1$)  
+
+
+Most-Diversified Portfolio는 위의 Diversification ratio를 maximize하는 것이 목표  
+
+※ 투자자들이 같은 비율로 현금을 빌려주고 빌릴 수 있다고 가정  
+→ $Y_i = \frac{X_i}{\sigma_I} + (1-\frac{1}{\sigma_i})\$$ : synthetic assets  
+($: risk-free asset)  
+
+$Y_i$의 분산이 모두 1이 되면서 $\sum$ = 1 → $S'\sum$ = 1, $V_s = C$  
+→ minimize $S'CS$  
+
+Optimal portfolio M = $(\frac{w_{S1}}{\sigma_1},...,\frac{w_{SN}}{\sigma_N},(1-\sum^n_{i=1}\frac{w_{Si}}{\sigma_i}$)$)  
+
+- properties  
+
+$M = k\sigma^{-1}C^{-1}1$  
+
+$\rho_{P,M} = \frac{P'\sigma C\sigma M}{\sigma_P\sigma_M} = D(P)\frac{k}{\sigma_M}$  
+
+- $\rho_{i,M} = \frac{k}{\sigma_M}$  
+
+- $k = \frac{\sigma_M}{D(M)}$  
+→ $\rho_{P,M} = \frac{D(P)}{D(M)}$  
+
+CAPM: $R_P = \alpha_P + \frac{\sigma_P}{\sigma_M}\frac{D(P)}{D(M)}R_M + \epsilon_P$  
+
+
+※ 모든 주식이 동일한 변동성을 지니고 있다면 MDP = minimum-variance portfolio  
+
+![%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202024-05-10%20155445.png](attachment:%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202024-05-10%20155445.png)
+![%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202024-05-10%20155542.png](attachment:%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202024-05-10%20155542.png)
+![%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202024-05-10%20155657.png](attachment:%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202024-05-10%20155657.png)
+![%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202024-05-10%20155729.png](attachment:%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202024-05-10%20155729.png)
+![%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202024-05-10%20162301.png](attachment:%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202024-05-10%20162301.png)
+![%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202024-05-10%20162331.png](attachment:%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202024-05-10%20162331.png)
+
+## Conclusion  
+
+- MDP를 사전에 활용하는 것은 어려움이 있으나 사후에 활용하는 것은 minimum-variance portfolio, equal-weight portfolio 보다 더 효율적이다.  
+- 주식 시장에 특정한 가설이 아니기 때문에 다른 자산 클래스에도 활용가능
