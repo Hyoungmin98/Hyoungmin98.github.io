@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ---
 layout: post
 title:  "FBA Quant 학회 PO세션 활동내용"
@@ -17,15 +17,4 @@ HW8: 포트폴리오 성과 분석
 HW9: Maximum Diversification Portfolio 전략 관련 논문 요약  
 HW10: Black-Litterman Model 관련 논문 요약  
 HW11: CPPI(Constant Proportional Portfolio Insurance)    
-HW12: Empirical Asset Pricing via Machine Learning 논문 요약 
-=======
----
-layout: post
-title:  "FBA Quant 학회 PO세션 활동내용"
-date:   2024-07-22 22:38:28 +0900
-categories: FBA PO
----  
-
-FBA Quant 금융공학(퀀트) 학회 Portfolio Optimization 세션 활동내용(2024-02 ~ 2024-07)은 해당 링크를 통해 확인해주세요.
-https://github.com/Hyoungmin98/FBA-Quant_PO
->>>>>>> 61eecec (Uploaded first post)
+HW12: Empirical Asset Pricing via Machine Learning 논문 요약
