@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "FBA Quant 학회 PO세션 활동내용"
