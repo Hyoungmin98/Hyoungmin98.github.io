@@ -1,8 +1,0 @@
----
-layout: post
-title:  "FBA Quant 학회 FE세션 활동내용"
-date:   2024-07-22 22:38:28 +0900
-categories: FBA FE
----  
-
-FBA Quant 금융공학(퀀트) 학회 Finance Engineering 세션 활동내용(2024-02 ~ 2024-07)은 해당 링크를 통해 확인해주세요.
