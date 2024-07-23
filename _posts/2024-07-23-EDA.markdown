@@ -61,7 +61,7 @@ lead_time: 예약 날짜로부터 투숙 날짜까지의 일수 차이
 sns.violinplot(x="hotel", y="lead_time", data=df, inner=None, color=".8")  
 sns.stripplot(x="hotel", y="lead_time", data=df, size=1)
 ```
-![image1.png](HW1/image7.png) 
+![image1.png](HW1/image7.png)   
 Violinplot(): 분포를 효과적으로 표현해줌.  
 stripplot(): 각 관측치의 위치를 직관적으로 표현해줌.  
 
