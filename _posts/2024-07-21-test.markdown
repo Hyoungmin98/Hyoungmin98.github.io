@@ -1,8 +1,0 @@
----
-layout: post
-title:  "테스트 1차"
-date:   2024-07-20 22:38:28 +0900
-categories: KHUDA ML
----
-
-제발ㄹㄹㄹㄹㄹㄹㄹ
