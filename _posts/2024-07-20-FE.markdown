@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "FBA Quant 학회 FE세션 활동내용"
-date:   2024-07-20 22:38:28 +0900
+date:   2024-07-23 22:38:28 +0900
 categories: FBA FE
 ---  
 
