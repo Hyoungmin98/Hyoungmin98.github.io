@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="{{ site.lang }}">
 <head>
   {%- include head.html -%}
@@ -6,7 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | escape }} - {{ site.title | escape }}</title>
-  <!-- Chirpy 테마의 CSS는 자동으로 로드됩니다. -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/fonts.css' | relative_url }}">
 </head>
 <body>
   <header>
