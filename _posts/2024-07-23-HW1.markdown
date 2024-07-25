@@ -4,6 +4,7 @@ title:  "데이터 탐색과 시각화"
 date:   2024-07-20 22:38:28 +0900
 math: true
 categories: KHUDA ML
+tags: KHUDA ML
 ---
 
 ※ EDA VS 데이터 시각화  
