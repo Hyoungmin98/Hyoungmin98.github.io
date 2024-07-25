@@ -2,7 +2,9 @@
 layout: post
 title:  "Empricial Asset Pricing via Machine Learning 논문 요약"
 date:   2024-07-20 22:38:28 +0900
+math: true
 categories: FBA PO
+tags: FBA_Quant Quant ML 
 ---
 
 Empricial Asset Pricing via Machine Learning 논문 요약은 이미 FBA Quant학회 PO세션에서 HW12에 게시되어 있지만 이해가 잘 되지 않은 상황에서 급하게 요약한거라 차근차근 다시 요약을 진행해보려 한다.  
