@@ -240,5 +240,5 @@ head_custom_include: head.html
 
 # Disable default assets inclusion to prevent missing file errors
 assets:
-  css: []
+  css: [] 
 
