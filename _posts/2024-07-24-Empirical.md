@@ -39,7 +39,7 @@ Empricial Asset Pricing via Machine Learning 논문 요약은 이미 FBA Quant�
 ## 1. Methodology   
 
 ![image1.png](/assets/images/PO_HW12_image/image1.png)  
-이 논문에서 가장 핵심이 되는 공식이라 할 수 있음. t+1시점의 자산 i의 실제 수익률을 t시점에서 예측한 값 $E_t(r_{i,t+1})$과 예측 오차$\epsil_{i,t+1}$의 합으로 표현.  
+이 논문에서 가장 핵심이 되는 공식이라 할 수 있음. t+1시점의 자산 i의 실제 수익률을 t시점에서 예측한 값 $E_t(r_{i,t+1})$과 예측 오차$\epsilon_{i,t+1}$의 합으로 표현.  
 $g^*(z_{i,t})$: 자산 i의 수익률을 예측하는 데 사용되는 정보 집합 z의 예측 모델  
 
 
