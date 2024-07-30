@@ -183,7 +183,7 @@ $x_k^{(l)}$: l번째 층에서 k번째 뉴런의 출력 값
 1. 예측 변수 j의 모든 값을 0으로 설정하고 나머지 모델 추정치는 고정한 상태에서 $R^2$이 얼마나 감소되는지 확인하여 중요도 평가.  
 2. SSD 활용  
 SSD의 j번째 변수의 중요도는 다음과 같이 정의됨.  
-![image1.png](/assets/images/PO_HW12_image/image16.png)   
+![image1.png](/assets/images/PO_HW12_image/image19.png)   
 
 
 ## 2. An Empirical Study of U.S. Equities        
@@ -194,20 +194,20 @@ NYSE, AMEX, NASDAQ에 상장된 모든 기업의 개별 주식 수익률을 CRSP
 Welch and Goyal 연구에서의 변수 정의에 따라 dividend-price 비율, earnings-price-ratio, book-to-market, net equity expansion, T-bill rate, term spread, default spread, stock variance등 8가지 거시경제 예측 지수를 구성  
 
 ### 2.2 The cross-section of individual stocks  
-![image1.png](/assets/images/PO_HW12_image/image17.png)    
+![image1.png](/assets/images/PO_HW12_image/image16.png)    
 - 부스트 트리와 랜덤 포레스트는 각각 0.34, 0.33의 적합도를 생성하며 PCR과 대등함.  
 - 가장 성능이 좋은 비선형 방법은 neural network. NN3의 경우 0.4로 최고치 기록 
 → NN4, NN5모델이 더 개선되지 않는 것을 보아 학습의 이점이 제한적이라는 것을 보여줌  
 - 소형주 뿐만 아니라 대형주에서도 머신러닝 기법들이 높은 예측 성능을 보이고 있음.  → 머신러닝 모델이 단순히 소형주의 유동성 부족으로 인한 비효율성만을 반영하는 것이 아니라는 것을 증명    
 
-![image1.png](/assets/images/PO_HW12_image/image18.png)   
+![image1.png](/assets/images/PO_HW12_image/image17.png)   
 $\alpha = 0.05$으로 설정하고 t-statistic 값 비교   
 - 열 모델이 행 모델보다 우수한 성능을 가지는가? → 양의 statistic 값을 가지면 열 모델이 더 우수한 성능을 지닌 것  
 - 기본적인 선형 회귀 모델보다 비선형 모델들이 더 좋은 성능을 지님. 특히 NN3이 가장 좋은 성능을 보임.  
 
 
 ### 2.3 Which covariates matter?  
-![image1.png](/assets/images/PO_HW12_image/image19.png)   
+![image1.png](/assets/images/PO_HW12_image/image18.png)   
 - 중요도 측정을 사용하여 각 모델별로 예측 변수의 상대적 중요도 평가  
 - 각 predictor 모든 값을 0으로 설정했을 때의 R^2값의 감소를 계산하고 이를 각 predictor에 대한 단일 중요도 측정값으로 평균  
 - 모델 내 변수 중요도의 총합은 1  
