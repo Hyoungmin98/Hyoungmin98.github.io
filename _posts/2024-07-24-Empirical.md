@@ -7,8 +7,7 @@ categories: FBA PO
 tags: FBA_Quant Quant ML 
 ---
 
-Empricial Asset Pricing via Machine Learning 논문 요약은 이미 FBA Quant학회 PO세션에서 HW12에 게시되어 있지만 이해가 잘 되지 않은 상황에서 급하게 요약한거라 차근차근 다시 요약을 진행해보려 한다.  
-
+Empricial Asset Pricing via Machine Learning 논문 요약은 이미 FBA Quant학회 PO세션에서 HW12에 게시되어 있지만 이해가 잘 되지 않은 상황에서 급하게 요약한거라 차근차근 다시 요약을 진행해보려 한다.
 # SUMMARY: Empirical Asset Pricing via Machine Learning  
 
 ## Introduction  
@@ -25,9 +24,9 @@ Empricial Asset Pricing via Machine Learning 논문 요약은 이미 FBA Quant�
 ※ 벤치마크 세가지 특성(size, book-to-market, momemtum)을 반영하여 S&P500 포트폴리오 수익에 대한 바텀업 예측   
    → 바텀업: 해당 변수가 좋은 팩터가 되는지 모르는 상황에서 영향력이 있는 팩터를 찾아나가는 방식  
 
-1. OLS $R^2$: -0.22  
-2. generalized linear model $R^2$: 0.71  
-3. Trees and neural network $R^2$: 1.08 ~ 1.8  
+1. OLS $R^2$: -0.22(%)  
+2. generalized linear model $R^2$: 0.71(%)  
+3. Trees and neural network $R^2$: 1.08 ~ 1.8(%)  
 
 ※ 사용 데이터  
 1957년부터 2016년까지 60년 동안 약 30,000종목의 개별 주식 데이터 사용.  
@@ -195,8 +194,8 @@ Welch and Goyal 연구에서의 변수 정의에 따라 dividend-price 비율, e
 
 ### 2.2 The cross-section of individual stocks  
 ![image1.png](/assets/images/PO_HW12_image/image16.png)    
-- 부스트 트리와 랜덤 포레스트는 각각 0.34, 0.33의 적합도를 생성하며 PCR과 대등함.  
-- 가장 성능이 좋은 비선형 방법은 neural network. NN3의 경우 0.4로 최고치 기록 
+- 부스트 트리와 랜덤 포레스트는 각각 0.34(%), 0.33(%)의 적합도를 생성하며 PCR과 대등함.  
+- 가장 성능이 좋은 비선형 방법은 neural network. NN3의 경우 0.4(%)로 최고치 기록 
 → NN4, NN5모델이 더 개선되지 않는 것을 보아 학습의 이점이 제한적이라는 것을 보여줌  
 - 소형주 뿐만 아니라 대형주에서도 머신러닝 기법들이 높은 예측 성능을 보이고 있음.  → 머신러닝 모델이 단순히 소형주의 유동성 부족으로 인한 비효율성만을 반영하는 것이 아니라는 것을 증명    
 
@@ -252,7 +251,7 @@ $SR^* = \sqrt{\frac{SR^2 + R^2}{1 - R^2}}$
 ![image1.png](/assets/images/PO_HW12_image/image23.png)  
 
 - 위 결과를 바탕으로 모든 머신러닝 포트폴리오 예측을 결합하는 두가지 전략 구성  
-1. 11개의 머신러닝 방법의 롱숏 포트폴리오를 동일한 가중치로 단순 평균  → equal-weighted 샤프 비율: 2.49, $R^2$:0.43 으로 단일 방법보다 높은 수치 기록  
+1. 11개의 머신러닝 방법의 롱숏 포트폴리오를 동일한 가중치로 단순 평균  → equal-weighted 샤프 비율: 2.49, $R^2$:0.43(%) 으로 단일 방법보다 높은 수치 기록  
 2. 해당 검증 샘플 동안 각 1년 테스트 샘플에 가장 적합한 머신러닝 모델을 선택하여 로테이션 구성  
 → 30년간 NN3 11회, NN1 7회, GBRT 6회, NN2 5회, NN4 1회 선택. $R^2$은 가장 높지만 독립형 NN-4모델보다 샤프비율은 낮음  
 
