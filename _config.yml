@@ -17,7 +17,7 @@ timezone: Asia/Seoul
 
 title: AhnHyoungMin # the main title
 
-tagline: 금융공학(퀀트) 관련 정리 블로그  # it will display as the sub-title
+tagline: 금융공학(퀀트), 데이터 분석, 머신러닝 관련 정리 블로그  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
