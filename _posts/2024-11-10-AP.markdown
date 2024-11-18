@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "FBA Quant 학회 AP세션 활동내용"
+date:   2024-11-10 22:38:28 +0900
+categories: FBA AP
+---  
+
+FBA Quant 금융공학(퀀트) 학회 Asset Pricing 세션 활동내용(2024-07 ~ 2025-01)은 해당 링크를 통해 확인할 수 있습니다.  
+[https://github.com/Hyoungmin98/FBA-Quant_AP](https://github.com/Hyoungmin98/FBA-Quant_AP)  
