@@ -3,7 +3,7 @@ layout: post
 title:  "Review: Factor-Based Portfolio Optimization"
 date:   2025-03-18 22:38:28 +0900
 math: true
-categories: KHUDA Finance
+categories: Review
 tags: Quant ML 
 ---
 
