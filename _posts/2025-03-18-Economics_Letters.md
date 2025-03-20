@@ -30,7 +30,7 @@ $$w \geq 0$$
 
 ## Step 1  
 이때 목적함수에 들어가는 $\mu$ 값을 추정하는 것이 핵심이다. CAPM을 통한 미래수익률 추정 과정은 다음과 같다.  
-$$ \mu^{factor}_{i,t+1} = \bar{r}^f_t + \hat{\beta}_i(\bar{r}^m_t - \bar{r}^f_t)$$  
+$$\mu^{factor}_{i,t+1} = \bar{r}^f_t + \hat{\beta}_i(\bar{r}^m_t - \bar{r}^f_t)$$  
 
 베타값 추정은 영업일 기준 252일의 look-back window를 가진다.     
 
