@@ -25,7 +25,7 @@ Step 2: 머신러닝 모델 중 SVR(Support Vector Regression)을 활용한다. 
 
 $$max\, SR = \frac{\mu'w}{(w'\sum w)^{\frac{1}{2}}}$$   
 
-$$s.t. \, ew = 1$$  
+$$s.t. \, e'w = 1$$  
 $$w \geq 0$$  
 
 ## Step 1  
