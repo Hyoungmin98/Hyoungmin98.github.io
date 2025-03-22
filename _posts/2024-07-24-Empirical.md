@@ -3,7 +3,7 @@ layout: post
 title:  "Empricial Asset Pricing via Machine Learning 논문 요약"
 date:   2024-07-20 22:38:28 +0900
 math: true
-categories: FBA PO
+categories: Review
 tags: FBA_Quant Quant ML 
 ---
 
