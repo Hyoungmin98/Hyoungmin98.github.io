@@ -71,7 +71,7 @@ SVR을 사용한 이유는 다음과 같다.
 
 ## In-Sample Performance
 ![image1.png](/assets/images/Economics_letters/image1.png)  
-In-Sample에서의 포트폴리오 성능 평가 결과 샤프비율은 과거 수익률을 매개변수로 넣은 SRHist 전략이 가장 높은 값을 보였다. 다만 변동성 또한 SRHist가 가장 높았으며 가장 낮은 Diversification ratio, 가장 높은 HHI(Herfindahl–HirschmanIndex)를 기록한 것을 보아 다른 포트폴리오 전략보다 우월하다고 생각하진 않는다(샤프비율은 높았지만 리스크도 그만큼 높아졌기 때문).   
+In-Sample에서의 포트폴리오 성능 평가 결과 샤프비율은 과거 수익률을 매개변수로 넣은 SRHist 전략이 가장 높은 값을 보였다. 다만 변동성 또한 SRHist가 가장 높았으며 가장 낮은 Diversification ratio, 가장 높은 HHI(Herfindahl–Hirschman Index)를 기록한 것을 볼 수 있다.  
 HHI에서는 특히 좀 의외의 결과를 볼 수 있었다. 최대 다각화를 목적으로 하는 MDRP보다 SRF1, SRML 포트폴리오가 더 낮은 HHI 값을 보였는데 이는 두 전략의 자산들이 더 낮은 자산 집중도를 가진다는 것을 알 수 있다.
 
 
@@ -80,7 +80,7 @@ HHI에서는 특히 좀 의외의 결과를 볼 수 있었다. 최대 다각화�
 ![image1.png](/assets/images/Economics_letters/image2.png)  
 
 포트폴리오는 한달동안 보유한 상태로 매달 리밸런싱을 진행함으로써 일별 수익률을 기록한다.  
-이를 1년의 롤링 윈도우 내에서 샤프비율과 MDD(Maximum drawdown)을 측정한다. 2010~2021년 중에서 처음 1년동안은 계산하지 않고 나머지 11년동안 측정한 것으로 예상된다.(대략 252*11 = 2772로 비슷한 값을 가짐.)  
+이를 1년의 롤링 윈도우 내에서 샤프비율과 MDD(Maximum drawdown)을 측정한다. 2010~2021년 중에서 처음 1년동안은 모델 학습을 위해 계산하지 않고 나머지 11년동안의 성과를 측정한 것으로 예상된다.(대략 252*11 = 2772로 비슷한 값을 가짐.)  
 
 - OOS 결과에 따르면 Step 1,2를 모두 거친 SRML 전략이 가장 우수한 성능을 기록하는 것을 볼 수 있다. 가장 높은 샤프비율 뿐만 아니라 가장 낮은 MMD 값을 보였다.  
 - 이는 최적화 결과에서 발생하는 추정 잡음을 CAPM을 통해 효과적으로 완화할 수 있음을 나타낸다.  
