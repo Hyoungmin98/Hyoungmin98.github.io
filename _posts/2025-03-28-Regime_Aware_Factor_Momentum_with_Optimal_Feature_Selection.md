@@ -67,8 +67,8 @@ continuous JM에서의 첫번째 항도 L2 norm을 활용하여 손실함수가 
 
 ### Portfolio Construction  
 1. single-factor portfolio     
-r(t+1) = 0(성장 국면) → 보유량의 100% 3개월 만기 미국 국채에 할당  
-r(t+1) = 0(하락 국면) → 보유량의 100% 해당 팩터에 할당  
+r(t+1) = 0(성장 국면) → 보유량의 100% 해당 팩터에 할당 
+r(t+1) = 1(하락 국면) → 보유량의 100% 3개월 만기 미국 국채에 할당
 
 이러한 전략과 기존 국면에 관계없이 single-factor로 buy and hold 하는 전략을 비교. 이를 통해 폭락 기간 동안 투자자를 보호하여 Max-drawdown을 줄이는 것을 목표로 한다.  
 
