@@ -216,11 +216,11 @@ Freyberger et al.(2017)에서 주식 수익률 및 특성 데이터를 가져왔
 ## 4.2. The asset pricing performance of IPCA  
 모델의 성능을 측정하기 위해서 총 두 가지 $R^2$ 를 사용한다.  
 
-$Total \, R^2 = 1 - \frac{\sum_{i,t}(r_{i,t+1} - z'_{i,t}(\hat\Gamma_{\alpha} + \hat\Gamma_{\beta}\hat f_{t+1}))^2}{\sum_{i,t}r^2_{i,t+1}}$  
+$Total \, R^2 = 1 - \frac{\sum_{i,t}(r_{i,t+1} - z_{i,t}'(\hat\Gamma_{\alpha} + \hat\Gamma_{\beta}\hat f_{t+1}))^2}{\sum_{i,t}r^2_{i,t+1}}$  
 
 Total R²은 주어진 모델에서 체계적 위험이 개별 주식 패널에서 실현된 위험성을 얼마나 잘 설명하는지를 요약하는 지표이다.  
 
-$Predictive \, R^2 = 1 - \frac{\sum_{i,t}(r_{i,t+1} - z'_{i,t}(\hat\Gamma_{\alpha} + \hat\Gamma_{\beta}\hat f_{t+1}))^2}{\sum_{i,t}r^2_{i,t+1}}$  
+$Predictive \, R^2 = 1 - \frac{\sum_{i,t}(r_{i,t+1} - z_{i,t}'(\hat\Gamma_{\alpha} + \hat\Gamma_{\beta}\hat f_{t+1}))^2}{\sum_{i,t}r^2_{i,t+1}}$  
 
 Predictive R²는 특성이 기대 수익률을 얼마나 잘 설명하는지를 보여주는 지표이다.  
 
@@ -439,6 +439,7 @@ $\beta$ 행렬의 k번째 열은 각 특성이 k번째 팩터에 대해 어떻�
 그래도 논문을 최대한 이해하려고 노력했다. 하루에 1페이지밖에 못읽는 날도 있을 정도로 깊게 이해하려고 노력했는데 나중에 실력이 더 오르고 다시 읽어보면 보이는게 훨씬 많을 것 같다.  
 
 추가적으로 해당 논문에서 IPCA 모델을 활용한 팩터들은 단순히 평균-분산 효율성에 초점을 두었기 때문에 거래비용 등을 고려하지 않은 비현실적인 팩터 성과라고 말한다. 그러나 샤프비율이 굉장히 높게 나온만큼, 그리고 이 논문에서도 후속 연구로 실질적인 전략 활용성에 대해 언급한 만큼 IPCA 모델의 latent factor가 거래비용을 차감해도 의미가 있는지에 대해서는 확인해보고 싶다는 생각이 들었다.
+
 
 
 
