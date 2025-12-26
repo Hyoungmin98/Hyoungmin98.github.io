@@ -3,7 +3,7 @@ layout: post
 title:  "Review: Factor Timing with Cross Sectional and Time-Series Predictors"
 date:   2025-12-23 22:38:28 +0900
 math: true
-categories: Paper_Review
+categories: "Paper Review"
 tags: Quant Factor_Timing
 ---
 
@@ -203,6 +203,7 @@ EXHIBIT 8은 모든 신호를 종합 지표로 결합했을 때의 성과를 나
 
 이 논문을 감히 평가할 입장은 아니지만, 논문에서 보인 각 개별 신호 기반 팩터 타이밍 전략의 성과와 함께 동일가중 팩터 포트폴리오의 성과도 함께 보여줬다면 순수 팩터 타이밍 전략의 효과를 더 직관적으로 확인할 수 있지 않을까 생각했다. 실제로 팩터 타이밍 전략 성과가 우수했더라도 시장 수익률 혹은 기본 팩터 수익률의 성과와 큰 차이가 없다면 큰 의미를 가지지 못하기 때문이다(물론 최종 신호 결합모델과 비교할 땐 동일가중 팩터 포트폴리오를 벤치마크로 사용함).   
 추가적으로 이 논문에서는 국면 분석에 대해 복잡한 모델을 사용하진 않았지만 ML, DL 등을 활용한다면 더욱 좋은 성과를 보일 수 있을 것으로 기대된다.  
+
 
 
 
