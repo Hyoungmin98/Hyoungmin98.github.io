@@ -3,8 +3,8 @@ layout: post
 title:  "Review: Regime-Aware Factor Allocation with Optimal Feature Selection"
 date:   2025-03-28 22:38:28 +0900
 math: true
-categories: Review
-tags: Quant ML 
+categories: [Paper Review]
+tags: [Quant, Factor Timing] 
 ---
 
 **해당 게시글은  Bosancic et al.(2024)의 "Regime-Aware Factor Allocation with Optimal Feature Selection" 논문을 리뷰한 글입니다.**     
@@ -117,4 +117,5 @@ single-factor portfolio에 대해 다양한 성과 평가 지표를 통해 비�
 # Conclusion  
 본 논문에서는 Statistcal Jump Model를 활용한 국면 분석과 동적으로 feature 조합을 선택하는 전략을 통해 기존 single-factor portfolio, multi-factor portfolio 대비 성과를 크게 향상시켰다.   
 추가적으로 이 논문의 아이디어를 기반으로 하여 랜덤 포레스트, XGBoost 등과 같은 기계학습 방법론을 활용해 국면을 예측하여 성능을 향상시키거나 다양한 포트폴리오 최적화 방법론을 활용한 multi-factor portfolio 성과 향상, 실제 투자에 활용을 위해 거래비용을 반영하여 다양한 리밸런싱 전략을 구성하는 것을 고려해볼 수 있다.  
+
 
