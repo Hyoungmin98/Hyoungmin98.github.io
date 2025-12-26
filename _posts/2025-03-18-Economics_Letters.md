@@ -3,8 +3,8 @@ layout: post
 title:  "Review: Factor-Based Portfolio Optimization"
 date:   2025-03-18 22:38:28 +0900
 math: true
-categories: Review
-tags: Quant ML 
+categories: [Paper Review]
+tags: [Quant, ML, Factor Model, Portfolio Optimization] 
 ---
 
 **해당 게시글은 Auh and Cho(2023)의 "Factor-Based Portfolio Optimization"을 리뷰한 글입니다. 논문에 대한 개인적인 의견도 포함되어 있습니다.**    
@@ -100,3 +100,4 @@ HHI에서는 특히 좀 의외의 결과를 볼 수 있었다. 최대 다각화�
 
 
 **이 논문을 읽으면서 개인적으로 놀라웠던 점은 이렇게 쉽고 간단한 모델으로 유의미한 성과를 보였다는 것이었다. 머신러닝&딥러닝 모델이 많이 발전하고 학부생들도 예측성과를 어떻게든 높이기 위해 다양한 딥러닝 모델을 사용하지만 정작 해석이 불가능하고 설득력이 떨어진다는 점이 공통적으로 발생하는 한계점이다. 그러나 이 논문은 학부생도 비교적 이해하기 쉽고 경영&경제학적으로 설명력이 강한 CAPM 모델과 SVR만을 활용하여 포트폴리오의 성과를 높이고 MVO의 문제점을 완화했다는 것이 이 논문의 특별함이라고 생각한다. 또한 SVR을 구성하는 과정에서 사용한 22개의 예측변수가 포트폴리오의 성과를 높이는 데에 큰 역할을 했을 것이라고 생각한다.** 
+
