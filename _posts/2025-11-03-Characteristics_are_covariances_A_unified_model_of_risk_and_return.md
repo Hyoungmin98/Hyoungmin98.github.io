@@ -7,7 +7,8 @@ categories: [Paper Review]
 tags: [Quant, Factor Model]  
 ---
 
-**해당 게시글은 Kelly et al.,(2019)의 "Characteristics are covariances: A unified model of risk and return" 논문을 리뷰한 글입니다.**   
+**해당 게시글은 Kelly et al.,(2019)의 "Characteristics are covariances: A unified model of risk and return" 논문을 리뷰한 글입니다. 본 게시물에서 인용한 논문 및 자료에 대한 상세 정보는 아래의 링크를 통해 확인하실 수 있습니다.  
+[Kelly et al.,(2019)](https://doi.org/10.1016/j.jfineco.2019.05.001)**   
 
 사실 원래는 Brian Kelly의 "Autoencoder Asset Pricing Models" 논문을 리뷰해보려 했으나, Introduction을 읽어보니 이 논문에서 파생되어 만들어진 논문이라는 느낌이 들기도 했고, IPCA를 먼저 이해하는 것이 중요할 것 같아 해당 논문을 먼저 리뷰해보기로 했다.  
 
@@ -439,6 +440,7 @@ $\beta$ 행렬의 k번째 열은 각 특성이 k번째 팩터에 대해 어떻�
 그래도 논문을 최대한 이해하려고 노력했다. 하루에 1페이지밖에 못읽는 날도 있을 정도로 깊게 이해하려고 노력했는데 나중에 실력이 더 오르고 다시 읽어보면 보이는게 훨씬 많을 것 같다.  
 
 추가적으로 해당 논문에서 IPCA 모델을 활용한 팩터들은 단순히 평균-분산 효율성에 초점을 두었기 때문에 거래비용 등을 고려하지 않은 비현실적인 팩터 성과라고 말한다. 그러나 샤프비율이 굉장히 높게 나온만큼, 그리고 이 논문에서도 후속 연구로 실질적인 전략 활용성에 대해 언급한 만큼 IPCA 모델의 latent factor가 거래비용을 차감해도 의미가 있는지에 대해서는 확인해보고 싶다는 생각이 들었다.
+
 
 
 
