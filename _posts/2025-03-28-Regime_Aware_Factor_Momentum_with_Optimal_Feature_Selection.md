@@ -7,7 +7,8 @@ categories: [Paper Review]
 tags: [Quant, Factor Timing] 
 ---
 
-**해당 게시글은  Bosancic et al.(2024)의 "Regime-Aware Factor Allocation with Optimal Feature Selection" 논문을 리뷰한 글입니다.**     
+**해당 게시글은  Bosancic et al.(2024)의 "Regime-Aware Factor Allocation with Optimal Feature Selection" 논문을 리뷰한 글입니다. 본 게시물에서 인용한 논문 및 자료에 대한 상세 정보는 아래의 링크를 통해 확인하실 수 있습니다.  
+[Bosancic et al.(2024)](https://openurl.ebsco.com/EPDB%3Agcd%3A6%3A37042470/detailv2?sid=ebsco%3Aplink%3Ascholar&id=ebsco%3Agcd%3A179072219&crl=c&link_origin=scholar.google.com)**     
 
 # Introduction  
 이 논문은 기존 국면분석에 가장 많이 활용되는 은닉 마코프 모델(Hidden Marcov Model: HMM) 대신 Bemporad et al. (2017)의 statistical Jump Model을 활용하여 시장의 국면을 분할하여 팩터투자 전략을 구현했다.  
@@ -117,5 +118,6 @@ single-factor portfolio에 대해 다양한 성과 평가 지표를 통해 비�
 # Conclusion  
 본 논문에서는 Statistcal Jump Model를 활용한 국면 분석과 동적으로 feature 조합을 선택하는 전략을 통해 기존 single-factor portfolio, multi-factor portfolio 대비 성과를 크게 향상시켰다.   
 추가적으로 이 논문의 아이디어를 기반으로 하여 랜덤 포레스트, XGBoost 등과 같은 기계학습 방법론을 활용해 국면을 예측하여 성능을 향상시키거나 다양한 포트폴리오 최적화 방법론을 활용한 multi-factor portfolio 성과 향상, 실제 투자에 활용을 위해 거래비용을 반영하여 다양한 리밸런싱 전략을 구성하는 것을 고려해볼 수 있다.  
+
 
 
