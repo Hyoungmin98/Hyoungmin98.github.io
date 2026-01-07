@@ -7,7 +7,8 @@ categories: [Paper Review]
 tags: [Quant, Momentum] 
 ---
 
-해당 게시글은 Gupta and Kelly(2018)의 "Factor Momentum Everywhere" 논문을 리뷰한 글입니다.   
+**해당 게시글은 Gupta and Kelly(2018)의 "Factor Momentum Everywhere" 논문을 리뷰한 글입니다. 본 게시물에서 인용한 논문 및 자료에 대한 상세 정보는 아래의 링크를 통해 확인하실 수 있습니다.  
+[Gupta and Kelly(2018)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3300728)**  
 
 # Introduction  
 가격 모멘텀은 최근 다른 자산에 비해 높은 수익률을 누렸던 자산이 미래에도 높은 수익률을 보일 가능성이 더 높은 현상을 말한다. 일반적으로 개별 주식 간 횡단면 거래 전략으로 구현된다.  
@@ -120,6 +121,7 @@ C에서 나타난 equal-weighted portfolio 대비 알파값 또한 단기 기간
 팩터 모멘텀 전략은 미국 이외에도 많은 국가에서 같은 현상을 보이며 이는 국제적으로 모두 통용되는 새로운 팩터라는 것을 시사한다.  
 
 **본 논문에서는 한국 시장에서의 팩터 모멘텀 현상을 분석하진 않았다. 개인적으로 한국시장의 팩터 모멘텀 현상이 유사한 결과가 도출될지 궁금하다. 한국의 경우 오히려 역모멘텀 효과가 나타난다는 몇몇 연구결과도 존재하기 때문에 한국시장의 팩터 모멘텀 연구도 굉장히 흥미로운 주제가 될 것이라 생각한다.**    
+
 
 
 
