@@ -317,8 +317,8 @@ $r_{i,t} = \beta_{i,t-1} f_t + \varepsilon_{i,t}, \qquad \beta_{i,t-1} = g^{*}(c
 각 파라미터 및 변수의 분포 가정은 다음과 같다.  
 $x_t \sim \mathcal{N}(0.03,\; 0.1^2 I_{P_x}), \qquad \eta_t \sim \mathcal{N}(0,\; 0.01^2 I_{3}), \qquad \varepsilon_{i,t} \sim t_{5}(0,\; 0.1^2)$  
 이때 이들의 분산은 평균 시계열 $R^2$ 가 약 45%, 평균 연율화 변동성이 약 60% 가 되도록 조정한다.  
-$c_{i,j,t} = \frac{2}{n+1} \quad \mathrm{rank}(\tilde{c}_{i,j,t}) - 1$  
-$\tilde{c}_{i,j,t} = \rho_j \tilde{c}_{i,j,t-1} + \epsilon_{i,j,t}$  
+$c_{i,j,t} = \frac{2}{n+1} \quad rank(\tilde c_{i,j,t}) - 1$  
+$\tilde c_{i,j,t} = \rho_j \tilde{c}_{i,j,t-1} + \epsilon_{i,j,t}$  
 → 특성값 랭크 기반 정규화([-1,1] 범위로 정규화), AR(1) process 가정   
 
 $\rho_j \sim U(0.9,1), \quad \epsilon_{ij,t} \sim N(0,1)$   
