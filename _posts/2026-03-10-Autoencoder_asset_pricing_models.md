@@ -150,11 +150,11 @@ $x_t = (Z_{t-1}' Z_{t-1})^{-1} Z_{t-1} r_t$
 KPS의 IPCA는 다음과 같은 최적화 문제를 해결한다.  
 ![image1.png](/assets/images/Autoencoder_Asset_Pricing_Models/image6.png)  
 
-조건부 오토인코더의 단순 버전을 고려해보변, $\beta_{i,t}^' = Z_{t-1}W_0^'$ 이고 $f_t = W_1x_t$ 이므로 추정 목적함수는 다음과 같다.  
+조건부 오토인코더의 단순 버전을 고려해보면, $\beta_{i,t}' = Z_{t-1}W_0'$ 이고 $f_t = W_1x_t$ 이므로 추정 목적함수는 다음과 같다.  
 ![image1.png](/assets/images/Autoencoder_Asset_Pricing_Models/image7.png)  
 
 ※ Proposition 2  
-$Z_t^'Z_t = \sum$ 가 상수 행렬일 경우 위의 두 최적화의 해는 동일하다.  
+$Z_t'Z_t = \sum$ 가 상수 행렬일 경우 위의 두 최적화의 해는 동일하다.  
 상수가 아닌 일반적인 경우에는 두 추정량이 유사하긴 하지만 동일하진 않다.  
 따라서 두 모델의 실증적인 성능이 유사하다는 것을 알 수 있다.  
 
