@@ -82,8 +82,8 @@ latent factor를 구성할 때 가장 일반적으로 사용되는 차원 축소
 이 둘은 모두 기존의 고차원 데이터를 선형결합을 통해 저차원으로 표현하는 방법인데, latent factor $f_t$ 를 추출하는 방식에서 차이가 있다.  
 
 PCA는 자산 수익률 간의 공분산 구조만을 반영하도록 가중치 행렬 W를 생성함으로써 비지도 학습 방식으로 latent factor를 도출하는 반면, PLS는 target과 가장 높은 상관을 갖는 $R_t$ 의 선형결합 K개를 만들어 지도학습 방식으로 factor를 추출한다.  
-$PCA: \max_{w} \operatorname{Var}(R_t w)$  
-$PLS: \max_{w} \operatorname{Cov}(R_t w, Y_t)$  
+$PCA: \max_{w} Var(R_t w)$  
+$PLS: \max_{w} Cov(R_t w, Y_t)$  
 
 이 두 방법 모두 가중치 행렬 W의 요소가 0이 아니어서 중요한 변수를 선택하여 팩터를 구성하는 것이 불가능하다.  
 
