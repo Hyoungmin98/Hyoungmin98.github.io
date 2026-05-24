@@ -103,7 +103,7 @@ $PLS: \max_{w} Cov(R_t w, Y_t)$
 **※ 오토인코더 구조(appendix)**  
 - Activation function은 tanh 사용  
 - Loss function: $\min_{b,W} \mathcal{L}(R_t,\hat R_t)= min_{b,W}\left\|R_t-\hat R_t\right\|^2$    
-- sparse autoencoder(AEN): $\min_{\theta} |R_t - \hat R_t|_F^2+ λ_1 |Z_{bottleneck}|_1 + λ_2 |Z_{bottleneck}|_2^2$
+- sparse autoencoder(AEN): $\min_{\theta} \|R_t - \hat{R}_t\|_F^2 + \lambda_1 \|Z_{\text{bottleneck}}\|_1 + \lambda_2 \|Z_{\text{bottleneck}}\|_2^2$
 - denoising autoencoder의 noise 표준편차 후보: $σ∈$ {0.01,0.1}  
 - $K∈ [1,5]$   
 - Adam optimizer 사용  
