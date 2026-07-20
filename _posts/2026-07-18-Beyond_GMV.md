@@ -159,8 +159,8 @@ $\bar{Q}$ = 장기 평균 correlation target
 최종적으로 $\Sigma_t^{\text{DCC-NLS}} = D_t R_t D_t$  → DCC-NLS  
 
 DCC-NLS에서 NLS는 DCC 재귀식의 장기 상관관계 타깃 $\bar{Q}$ 를 추정하는 데 적용한다.  
-- 기존 DCC: $z_t = D_t^{-1}r_t$ 에서 $S = \frac{1}{T-1}\sum_^{T}{t=1} (z_t - \bar{z})(z_t - \bar{z})^T$  
-→ $\bar{Q} = \operatorname{diag}(S)^{-1/2} S \operatorname{diag}(S)^{-1/2}$  
+- 기존 DCC: $z_t = D_t^{-1}r_t$ 에서 $S = \frac{1}{T-1}\sum^{T}_{t=1} (z_t - \bar{z})(z_t - \bar{z})^T$  
+→ $\bar{Q} = \mathrm{diag}(S)^{-1/2} S \mathrm{diag}(S)^{-1/2}$  
 
 기존 DCC는 $\bar{Q} = Corr(z_t)$ 로 쓸 때 자산 수 N이 커질 경우 불안정해지기 때문에 DCC-NLS에서는 $S = \frac{1}{T-1}\sum_{t=1}^{T} (z_t - \bar{z})(z_t - \bar{z})^\top$ 를 고유값 분해한다.  
 $S_s= UΛU^⊤$  
